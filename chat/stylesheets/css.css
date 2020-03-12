@@ -1,0 +1,43 @@
+body { margin:0; padding-top:100px; font-family:Arial, Helvetica, sans-serif; font-size:12px;}
+input.cs { width:170px; padding:5px; -moz-border-radius:3px;}
+h1, h2 { padding:0; margin:0;}
+h2, h1 { color:#006895;}
+td span {  font-weight:bold;}
+#alt {margin:0 auto; width:603px; text-align:center; padding-top:50px;}
+#alt a {color:#FFFFFF;}
+#a {margin:0 auto; width:580px; height:257px; padding:10px; color:#000; background:url("../images/back.png") no-repeat;}
+#b {border-bottom:1px solid #CCCCCC; margin-bottom:10px; padding-bottom:4px;}
+
+#avyeri {
+position: fixed;
+right: 38%;
+top: 140px;
+padding-top:0px;
+}
+
+.titles
+{
+    background-image: url('../images/middle.png');
+    background-repeat: repeat-x;
+}
+.titles div
+{
+    background-image: url('../images/first.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.titles h3
+{
+    background-image: url('images/last.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 37px;
+    margin-left: 5px;
+}
+
+.button
+ {
+   background: url("../images/basla.png") no-repeat;
+    cursor:pointer;
+    border: none;
+  }

@@ -1,0 +1,1156 @@
+/*Welcome to Compass.
+* In this file you should write your main styles. (or centralize your imports)
+* Import this file using the following HTML or equivalent:
+* <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+line 17, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss*/
+HTML, BODY, DIV, SPAN, APPLET, OBJECT, IFRAME, H1, H2, H3, H4, H5, H6, P, BLOCKQUOTE, PRE, A, ABBR, ACRONYM, ADDRESS, BIG, CITE, CODE, DEL, DFN, EM, IMG, INS, KBD, Q, S, SAMP, SMALL, STRIKE, STRONG, SUB, SUP, TT, VAR, B, U, I, CENTER, DL, DT, DD, OL, UL, LI, FIELDSET, FORM, LABEL, LEGEND, TABLE, CAPTION, TBODY, TFOOT, THEAD, TR, TH, TD, ARTICLE, ASIDE, CANVAS, DETAILS, EMBED, FIGURE, FIGCAPTION, FOOTER, HEADER, HGROUP, MENU, NAV, OUTPUT, RUBY, SECTION, SUMMARY, TIME, MARK, AUDIO, VIDEO
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: Arial;
+	font-size: small;
+	vertical-align: baseline;
+	line-height:100%;
+}
+/*line 22, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss*/
+HTML
+{
+	line-height: 1;
+}
+
+
+body
+{
+background-image:url('../images/arka.jpg');
+background-repeat:repeat-y;
+}
+
+/*line 24, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss*/
+OL, UL
+{
+	list-style: none;
+}
+/*line 26, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss*/
+
+
+
+TABLE
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*line 28, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss*/
+CAPTION, TH, TD
+{
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle;
+}
+/*line 30, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss*/
+Q, BLOCKQUOTE
+{
+	quotes: none;
+}
+/*line 103, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss*/
+Q:before, Q:after, BLOCKQUOTE:before, BLOCKQUOTE:after
+{
+	content: "";
+	content: none;
+}
+/*line 32, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss*/
+A IMG
+{
+	border: none;
+}
+/*line 116, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss*/
+ARTICLE, ASIDE, DETAILS, FIGCAPTION, FIGURE, FOOTER, HEADER, HGROUP, MENU, NAV, SECTION, SUMMARY
+{
+	display: block;
+}
+/*line 194, icons/*.png*/
+
+
+.icons-sprite, .icons-add-channel, .icons-books, .icons-chat_win_icon, .icons-close-dark, .icons-close, .icons-close_window, .icons-folder, .icons-help, .icons-left, .icons-logout, .icons-right, .icons-script, .icons-settings, .icons-smile, .icons-user
+{
+	background: url('../images/icons-sd7b2b6053f.png') no-repeat;
+}
+/*line 60, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-add-channel
+{
+	background-position: 0 -370px;
+}
+/*line 43, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-add-channel:hover, .icons-add-channel.add-channel_hover, .icons-add-channel.add-channel-hover
+{
+	background-position: 0 -164px;
+}
+/*line 60, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-books
+{
+	background-position: 0 -42px;
+}
+/*line 60, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-chat_win_icon
+{
+	background-position: 0 -432px;
+}
+/*line 60, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-close-dark
+{
+	background-position: 0 -538px;
+}
+/*line 43, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-close-dark:hover, .icons-close-dark.close-dark_hover, .icons-close-dark.close-dark-hover
+{
+	background-position: 0 -553px;
+}
+/*line 60, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-close
+{
+	background-position: 0 -481px;
+}
+/*line 43, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-close:hover, .icons-close.close_hover, .icons-close.close-hover
+{
+	background-position: 0 -466px;
+}
+/*line 60, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-close_window
+{
+	background-position: 0 -446px;
+}
+/*line 60, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-folder
+{
+	background-position: 0 -82px;
+}
+/*line 60, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-help
+{
+	background-position: 0 -62px;
+}
+/*line 60, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-left
+{
+	background-position: 0 -290px;
+}
+/*line 60, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-logout
+{
+	background-position: 0 -248px;
+}
+/*line 43, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-logout:hover, .icons-logout.logout_hover, .icons-logout.logout-hover
+{
+	background-position: 0 0;
+}
+/*line 60, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-right
+{
+	background-position: 0 -330px;
+}
+/*line 60, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-script
+{
+	background-position: 0 -412px;
+}
+/*line 60, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-settings
+{
+	background-position: 0 -206px;
+}
+/*line 43, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-settings:hover, .icons-settings.settings_hover, .icons-settings.settings-hover
+{
+	background-position: 0 -122px;
+}
+/*line 60, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-smile
+{
+	background-position: 0 -102px;
+}
+/*line 60, C:/Users/Vahid/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss*/
+.icons-user
+{
+	background-position: 0 -496px;
+}
+/*line 12, ../sass/screen.scss*/
+body {display: block; background:#F2F2F2;}
+/*line 17, ../sass/screen.scss*/
+
+#bolumn {
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    overflow: hidden;
+    background: url(../images/2.png) repeat scroll 0% 0% transparent;
+}
+
+
+.header .nav {
+  display: none;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  z-index: 100;
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  opacity: 0.4;
+}
+/* line 35, ../sass/screen.scss */
+.header .nav:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.buttons
+{
+ 
+ display: inline-block;
+ float:left;
+
+
+}
+.buttons2
+{
+ padding-right:20px;
+ display: inline-block;
+ float:right;
+
+
+}
+/*line 20, ../sass/screen.scss*/
+.buttons BUTTON
+{
+	width: 30px;
+	height: 30px;
+}
+.ust {
+height:25px; 
+background:url('../res/tool.gif');
+background-size: 100% auto; 
+color:#FFFFFF; 
+  overflow: hidden;
+	width:100%;
+}
+.ust a { font:normal 11px helvetica,arial,sans-serif; color:#848484; line-height: 175%; } 
+
+.ustbar {
+
+    overflow: hidden;
+	width:100%;
+    background: url(../images/2.png) repeat scroll 0% 0% transparent;
+	display:block;
+}
+div.clear { clear: both; }
+
+.window-close 
+{
+height:20px; 
+width:35px;
+background: url('../res/window-close.png') no-repeat;
+display: inline-block;
+float:right;
+
+}
+
+.ayarlar
+{
+height:25px; 
+width:30px;
+background: url('../res/set.png') no-repeat;
+ display: inline-block;
+ float:left;
+}
+
+
+.fullsc
+{
+height:20px; 
+width:35px;
+background: url('../res/full.png') no-repeat;
+display: inline-block;
+float:right;
+}
+.fullscexit
+{
+height:20px; 
+width:35px;
+background: url('../res/fullexit.png') no-repeat;
+display: inline-block;
+float:right;
+}
+.renk2
+{
+height:25px; 
+width:76px;
+background: url('../res/color.png') no-repeat;
+ display: inline-block;
+ float:left;
+}
+.dcc2
+{
+height:25px; 
+width:183px;
+background: url('../res/dcc.png') no-repeat;
+ display: inline-block;
+ float:left;
+}
+.pencere2
+{
+height:25px; 
+width:77px;
+background: url('../res/windows.png') no-repeat;
+ display: inline-block;
+ float:left;
+}
+.hakkimizda
+{
+height:25px; 
+width:24px;
+background: url('../res/about.png') no-repeat;
+ display: inline-block;
+ float:left;
+}
+.toolbar2 {
+margin-top:3px;
+margin-left: 5px;
+height:25px; 
+font-size:bold;
+background:url('../res/se.png');
+background-size: 100% auto; 
+color:#E6E6E6; 
+text-align:center
+}
+
+#bosluk { 
+margin-top:0px;
+}
+
+.buttons .ust
+{
+	height: 30px;
+}
+
+
+.buttons .nickname
+{
+	height: 30px;
+	width: %5;
+	float: right;
+	padding: 10px 2px 2px 20px;
+	color: #808080;
+	font-size: larger;
+	cursor: pointer;
+	border-right: 1px solid #808080;
+}
+/*line 26, ../sass/screen.scss*/
+.buttons #close
+{
+height:20px; 
+width: 20px;
+	background: url("../res/son/dis.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+		padding: 0;
+border: none;
+}
+/*line 32, ../sass/screen.scss*/
+.buttons #komutlar
+{
+	height:20px; 
+	width: 20px;
+	background: url("../res/son/komut.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 0;
+	border: none;
+}
+.buttons #ara
+{
+	height:20px; 
+	width: 20px;
+	background: url("../res/son/ara.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 0;
+	border: none;
+}
+.buttons #tanit
+{
+	height:20px; 
+	width: 20px;
+	background: url("../res/son/tanit.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 0;
+	border: none;
+}
+.buttons #kaydet
+{
+	height:20px; 
+	width: 20px;
+	background: url("../res/son/kayit.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 0;
+	border: none;
+}
+.buttons #kanallar  
+{
+	height:20px; 
+	width: 20px;
+	background: url("../res/son/kanallar.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 0;
+	border: none;
+}
+/*line 38, ../sass/screen.scss*/
+.buttons #topMenuImage
+{
+	height:20px; 
+	width: 20px;
+	background: url("../images/icons/smile.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 0;
+	border: none;
+
+}
+
+.buttons #about
+{
+	height:20px; 
+	width: 20px;
+	background: url("../res/son/hakkimizda.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+		padding: 0;
+	border: none;
+	display:hide;
+}
+.buttons #davet
+{
+	height:20px; 
+	width: 20px;
+	background: url("../res/son/davet.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+		padding: 0;
+	border: none;
+}
+.buttons2 #ust
+{
+	
+	height:20px; 
+	width: 24px;
+	background: url("../images/ust.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+		padding: 0;
+	border: none;
+	
+	
+}
+.buttons2 #alt
+{
+	height:20px; 
+	width: 24px;
+	background: url("../images/alt.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+		padding: 0;
+	border: none;
+}
+.buttons #kopyala
+{
+	height:20px; 
+	width: 20px;
+	background: url("../res/son/kopyala.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+		padding: 0;
+	border: none;
+	
+}
+.buttons #sil
+{
+	height:20px; 
+	width: 20px;
+	background: url("../res/son/sil.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+		padding: 0;
+	border: none;
+}
+.buttons #color
+{
+	height:20px; 
+	width: 20px;
+	background: url("../res/son/renkler.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 0;
+	border: none;
+}
+/*line 44, ../sass/screen.scss*/
+#butonbilgi 
+{
+   line-height:12px;
+   text-align: center
+}
+@font-face
+{
+	font-family: MyFont;
+	src: url("../font/fontawesome-webfont.ttf") format("truetype");
+}
+
+
+
+/*line 63, ../sass/screen.scss*/
+.header
+{
+	width:165px;
+	float:right;
+	text-align:left;
+
+}
+.ozelAlan
+{
+	width:165px;
+	float:left;
+	text-align:left;
+	
+
+}
+/*line 69, ../sass/screen.scss*/
+.header .tab-bar
+{
+	padding-left: 5px;
+	padding-top:1px;
+	width:165px;
+	font-family: "Times New Roman", Times, serif;
+	float: center;
+	height: 50px;
+	width: 155px!important;
+	color:#FFFFFF; 
+	overflow-x: hidden;
+	overflow-y: auto;
+	white-space: nowrap;
+	position: absolute;
+}
+
+
+/*line 76, ../sass/screen.scss*/
+.header .tab-bar .tabs
+{
+	display: inline-block;
+	font-size: large;
+	font-weight: bold;
+
+	font-family: "Times New Roman", Times, serif;
+}
+/*line 82, ../sass/screen.scss*/
+.header .tab-bar .tab
+{
+
+	font-family: "Times New Roman", Times, serif;
+	color: #0B3B0B;
+	cursor: pointer;
+	height: 20px;
+	border-style:solid;
+	border-bottom-color:#848484;
+	border-bottom-width:3px;
+
+}
+/*line 84, ../sass/screen.scss*/
+.header .tab-bar .tab .right
+{
+	background: url("../images/tab_right_bg.png");
+	float: left;
+	font-family: "Times New Roman", Times, serif;
+	height: 20px;
+	width: 11px;
+}
+/*line 91, ../sass/screen.scss*/
+.header .tab-bar .tab .left
+{
+	background: url("../images/tab_left_bg.png");
+	float: left;
+	height: 20px;
+	width: 10px;
+}
+
+.header .tab-bar .tab .mid2
+{
+	float: right;
+	height: 15px;
+	width: 15px;
+}
+/*line 98, ../sass/screen.scss*/
+.header .tab-bar .tab .mid
+{
+	font-family: "Microsoft Sans Serif";
+	font-size: large;
+	background: url("../images/tab_bg.png");
+	float: left;
+	height: 20px;
+	margin-top: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	min-width: 115px;
+	max-width: 115px;
+}
+/*line 108, ../sass/screen.scss*/
+.header .tab-bar .tab .chat-icon
+{
+	width: 20px;
+	height: 15px;
+	background: url("../res/son/yantab2.png");
+	display: inline-block;
+	margin-right: 5px;
+}
+/*line 116, ../sass/screen.scss*/
+.header .tab-bar .tab .icons-close
+{
+	width: 15px;
+	height: 15px;
+	position:absolute;
+	margin-top:5px;
+	vertical-align:text-top;;
+}
+/*line 130, ../sass/screen.scss*/
+.header .tab-bar .tab:hover .right
+{
+	background: url("../images/tab_active_right_bg.png");
+}
+/*line 134, ../sass/screen.scss*/
+.header .tab-bar .tab:hover .left
+{
+	background: url("../images/tab_active_left_bg.png");
+}
+/*line 138, ../sass/screen.scss*/
+.header .tab-bar .tab:hover .mid
+{
+	background: url("../images/tab_active_bg.png");
+}
+/*line 146, ../sass/screen.scss*/
+.header .tab-bar .active .right
+{
+	background: url("../images/tab_active_right_bg.png");
+}
+/*line 150, ../sass/screen.scss*/
+.header .tab-bar .active .left
+{
+	background: url("../images/tab_active_left_bg.png");
+}
+/*line 154, ../sass/screen.scss*/
+.header .tab-bar .active .mid
+{
+	color: #9000A1;
+	background: url("../images/tab_active_bg.png");
+}
+/*line 160, ../sass/screen.scss*/
+.ust .info-bar
+{
+	display: inline-block;
+	float: right;
+	
+}
+
+
+#button1 {
+     border:1px #fff;   
+    padding:1px;
+
+	width: 100px;
+	height: 7px;
+}
+#button1:hover, #button2:hover {
+    background-color:#ff0;
+    border-radius:10px;
+    box-shadow:0px 0px 10px #555;
+}
+/*line 165, ../sass/screen.scss*/
+.ust .info-bar A
+{
+	cursor: pointer;
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+}
+/*line 174, ../sass/screen.scss*/
+.body
+{
+	text-align:left;
+	clear: both;
+	margin-top: 1px;
+	margin-bottom: 0;
+	color:#000; 
+	
+}
+/*line 181, ../sass/screen.scss*/
+.body .chrome {
+  
+  float: left;
+  display: inline-block;
+  overflow: hidden;
+  margin-left:3px;
+  background-color: #fff;
+  border:1px solid;
+  border-radius: 7px;
+	border: 1px solid #333;
+}
+/*line 190, ../sass/screen.scss*/
+.body .chrome .messages
+{
+	float: left;
+	overflow: auto;
+	overflow-y: scroll;
+}
+.body .chrome .list
+{
+	float: left;
+	overflow: auto;
+	overflow-y: scroll;
+	display:none;
+}
+.body .chrome .yanreklam
+{
+	float: left;
+	width: 125px;
+	border:2px solid;
+
+}
+/*line 197, ../sass/screen.scss*/
+.body .chrome .message
+{
+	width: 99%;
+	margin: 0px auto;
+	padding: 3px 0;
+	overflow: hidden;
+
+	
+}
+/*line 205, ../sass/screen.scss*/
+.body .chrome .message .member
+{
+	width: %5;
+	display: block;
+	float: left;
+color: #666;
+font-family: monospace;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.body .chrome .message .timestamp {
+  width: 50px;
+  display: block;
+  float: left;
+  color: #585858;
+  font-size: small;
+}
+.body .chrome .message .parantez {
+  width: 10px;
+  display: block;
+  float: left;
+  font-size: 13px;
+  color: #666;
+font-family: monospace;
+  
+}
+/*line 211, ../sass/screen.scss*/
+.body .chrome .message .text
+{
+font-weight:bold;
+  border-left: 1px solid #DEDEDE;
+	padding-left: 5px;
+	font-size:13px;
+	display: block;
+	float: left;
+	color: #333333;
+font-family: monospace;
+	font-weight:bold;
+
+word-wrap: break-word;
+}
+/*line 219, ../sass/screen.scss*/
+.body .chrome .message_hover
+{
+	background-color: #fff;
+}
+/*line 223, ../sass/screen.scss*/
+.body .chrome .members
+{
+	overflow: hidden;
+	width: 150px;
+	display: inline-block;
+	font-size: 12px;
+}
+/*line 229, ../sass/screen.scss*/
+.body .chrome .members .box
+{
+
+	overflow: auto;
+	overflow-y: scroll;
+
+	
+}
+.body .chrome .members .profile
+{
+width: 150px;	
+height: 0px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border-bottom: solid 1px #A9E2F3;
+	
+}
+.body .chrome .members .yantaraf
+{
+
+	
+}
+
+.body .chrome .members .yantaraf .yanust
+{
+
+	width: 100px;
+}
+.body .chrome .members .yantaraf .yanalt
+{
+
+   height: 124px;
+   width: 180px;
+   position: absolute; 
+   bottom: 180px;
+	
+}
+.body .chrome .members .text
+{
+	text-align: center;
+	margin-top: 0px;
+	font-weight: bold;
+	font-size: 12px;
+}
+/*line 233, ../sass/screen.scss*/
+.body .chrome .members .member
+{
+	font-size: large;
+	font-weight: bold;
+	padding: 2px;
+	height: 13px;
+	font-size: 13px;
+	width:100%;
+}
+/*line 240, ../sass/screen.scss*/
+.body .chrome .members .member:hover
+{
+	background: url("../images/member_bg.png");
+	font-size: 12px;
+	width:100%;
+}
+
+.body .reklam
+{
+width: 180px;
+
+}
+/*line 248, ../sass/screen.scss*/
+.editor
+{
+	width: 95%;
+	display: block;
+	height: 40px;
+	margin: 0px 5px;
+	background-color:#D8D8D8;
+
+	
+}
+/*line 254, ../sass/screen.scss*/
+input.button_add {
+    background-image: url("../res/bold.png"); /* 16px x 16px */
+    background-color: transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 32px; 
+	width: 24px;/* make this the size of your image */
+    padding-left: 5px;     /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+}
+
+.editor .input
+
+{
+    margin-top: 2px;
+	height: 10px;
+	float: left;
+	margin-left: 50px;
+	border:1px solid;
+
+	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+.editor BUTTON
+{
+	background: url("../images/gonder.gif") no-repeat;
+	cursor: pointer;
+	float: right;
+	width: 90px;
+	height: 60px;
+	border: none;
+	padding: 0px;
+}
+/*line 261, ../sass/screen.scss
+line 272, ../sass/screen.scss*/
+.adhoc_form
+{
+	position: absolute;
+	background-color: #FFF;
+	z-index: 200;
+	padding: 15px;
+	display: none;
+	-webkit-box-shadow: 0px 0px 5px #333333;
+	-moz-box-shadow: 0px 0px 5px #333333;
+	box-shadow: 0px 0px 5px #333333;
+}
+/*line 280, ../sass/screen.scss*/
+.adhoc_form INPUT
+{
+	width: 250px;
+	font-size: larger;
+	display: block;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+/*line 288, ../sass/screen.scss*/
+.adhoc_form BUTTON
+{
+	float: left;
+	margin-left: 2px;
+	padding: 10px;
+}
+/*line 295, ../sass/screen.scss*/
+#context_menu
+{
+	position: absolute;
+	background-color: #D8D8D8;
+	z-index: 200;
+	display: none;
+	top: 0;
+	left: 0;
+	-webkit-box-shadow: 0px 0px 5px #333333;
+	-moz-box-shadow: 0px 0px 5px #333333;
+	box-shadow: 0px 0px 5px #333333;
+}
+/*line 304, ../sass/screen.scss*/
+#context_menu A
+{
+	display: block;
+	padding: 5px;
+	cursor: pointer;
+	height: 10px;
+}
+/*line 309, ../sass/screen.scss*/
+#context_menu A:hover
+{
+	background-color: #CCC;
+}
+/*line 315, ../sass/screen.scss*/
+#settings
+{
+	position: absolute;
+	background-color: #FFF;
+	z-index: 200;
+	display: none;
+	width: 350px;
+	padding: 15px;
+	top: 0;
+	left: 0;
+	-webkit-box-shadow: 0px 0px 5px #333333;
+	-moz-box-shadow: 0px 0px 5px #333333;
+	box-shadow: 0px 0px 5px #333333;
+}
+/*line 326, ../sass/screen.scss*/
+#settings BUTTON
+{
+	float: left;
+	margin-left: 2px;
+	padding: 10px;
+}
+
+#kanalbilgisi
+{ 
+   background:url('../res/kanal.png') left top; 
+   background-repeat:no-repeat;
+   background-position:10px 0px;
+   width:200px; 
+   padding-top:5px;
+   height:24px;
+   display: block;
+   float: left;
+   word-spacing:33px;
+}
+#ortamesaj
+{ 
+ 
+   display: inline-table;
+   line-height:24px;
+   text-align: center
+}
+#ozel
+{ 
+   
+   width:150px; 
+   height:25px;
+   display: block;
+   float: right;
+   padding-top:5px;
+
+}
+#ustyazi
+{ 
+   
+   height:25px;
+   display: block;
+   float: right;
+   padding-top:5px;
+	color:#BDBDBD;
+}
+#ustyazi2
+{ 
+   
+   height:25px;
+   display: block;
+   float: right;
+   padding-top:5px;
+   color:#fff;
+}
+#istek
+{ 
+   background:url('../images/istek-gonder.jpg') left top; 
+   background-repeat:no-repeat;
+   width:425px; 
+   height:30px;
+   padding-top:5px;
+   display: block;
+   float: right;
+}
+#engelle
+{   
+  background:url('../res/block.png') left top; 
+   background-repeat:no-repeat;
+   color: #610B0B;
+   height:25px;
+   display: inline-block;
+   float: right;
+line-height:25px
+  
+}
+
+#engel
+{ 
+background:url('../res/allow.png') left top; 
+   background-repeat:no-repeat;
+   color: #0B610B;
+   height:25px;
+   display: inline-block;
+   float: right;
+   padding-right:5px;
+   vertical-align:middle;
+line-height:25px
+}
+
+.body .chrome .members .yantaraf .yanust{ width:auto; }
+.me{ border:1px solid #e2e2e2; float:left; -ms-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; }
+.me img{ width:100px!important; margin:5px; }
+
+.abt{ margin:0; padding:0; float:left; margin-left:10px;  }
+.abt li{ list-style-type:none; font-size:12px; color:#333; font-weight:bold; background:#fff; padding:5px 8px; border-bottom:1px solid #A9E8A8; }
+.abt li span{ padding:0 5px; font-size:12px; }
+
+.body .chrome .members .member{display:table; background:#fff; height:13px; line-height:13px; }
+.body .chrome .members .member:hover{  background:#e4e4e4; border-radius:0; }
+
+select {
+   
+    padding: 4px 2px;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box;
+    height: 14px;
+}
+#sag, #sol {
+
+float: right;
+display:inline;
+margin-left: 5px;
+width: 24px;
+height: 13px;
+
+}
+
+#sol {
+float: right;
+background: url(../images/sol.png) no-repeat;
+}
+#sag {
+float: right;
+background: url(../images/sag.png) no-repeat;
+}
+
+/* html */
+:-webkit-full-screen {
+  background: pink;
+}
+:-moz-full-screen {
+  background: pink;
+}
+
+/* deeper elements */
+:-webkit-full-screen video {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.hakkimizda3 {
+width: 333px;
+height: 198px;
+background:url('../res/jsistem.png');
+background-size: 100% auto; 
+}
+.hakkimizda3 .yazi {
+padding-top:130px;
+}
+
+
+
+#topMenuImage{ display:block; float:left; width:16px; height:16px; background:url(../img/icon-smile.png) no-repeat; margin:10px 0 0 6px; }
+#bold{ display:block; float:left; width:16px; height:16px; background:url(../res/text-bold.png) no-repeat; margin:10px 0 0 6px; }
+.header .tab-bar .tab .icons-close{ width:9px; height:9px; line-height:9px; background:url(../img/icon-close.png) 0 center no-repeat; }
+.bb-alert {
+position: fixed;
+bottom: 25%;
+right: 0;
+margin-bottom: 0;
+font-size: 1.2em;
+padding: 1em 1.3em;
+z-index: 2000;
+}
+
+select {
+padding: 4px 2px;
+-moz-box-sizing: content-box;
+-webkit-box-sizing: content-box;
+box-sizing: content-box;
+height: 14px;
+width: 37px;
+margin-top: 5px;
+}

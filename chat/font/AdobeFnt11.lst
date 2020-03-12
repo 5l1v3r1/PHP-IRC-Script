@@ -1,0 +1,41 @@
+%!Adobe-FontList 1.11
+%Locale:0x41f
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:FixedsysTTF
+FamilyName:FixedsysTTF
+StyleName:Monospaced
+FullName:Fixedsys TTF V5.00c
+MenuName:FixedsysTTF
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp\www\sohbet\Font\fontawesome-webfont.ttf
+DataFormat:sfntData
+FileLength:27216
+FileModTime:1373216707
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:FontAwesome
+FamilyName:FontAwesome
+StyleName:Regular
+FullName:FontAwesome Regular
+MenuName:FontAwesome
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\wamp\www\sohbet\Font\fontawesome-webfont2.ttf
+DataFormat:sfntData
+FileLength:55096
+FileModTime:1371573871
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
